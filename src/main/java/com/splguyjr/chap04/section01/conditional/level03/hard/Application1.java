@@ -1,4 +1,4 @@
-package com.splguyjr.chap04.level03.hard;
+package com.splguyjr.chap04.section01.conditional.level03.hard;
 
 import java.util.Scanner;
 
