@@ -1,4 +1,4 @@
-package com.greedy.level01.basic;
+package com.splguyjr.chap03.level01.basic;
 
 public class Calculator {
 

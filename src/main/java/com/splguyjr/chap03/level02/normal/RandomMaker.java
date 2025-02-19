@@ -1,4 +1,4 @@
-package com.greedy.level02.normal;
+package com.splguyjr.chap03.level02.normal;
 
 import java.util.Random;
 
