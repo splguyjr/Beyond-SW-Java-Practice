@@ -52,6 +52,7 @@ public class Application2 {
 
         int chance = 0;
         while (chance != 10) {
+            System.out.println(10-chance + "회 남으셨습니다.");
             System.out.print("4자리 숫자를 입력하세요 : ");
             int input = sc.nextInt();
             sc.nextLine();
@@ -85,7 +86,6 @@ public class Application2 {
             else {
                 chance++;
                 System.out.println("아쉽네요 " + strike_count + "S " + ball_count + "B 입니다.");
-                System.out.println(10-chance + "회 남으셨습니다.");
             }
 
         }
