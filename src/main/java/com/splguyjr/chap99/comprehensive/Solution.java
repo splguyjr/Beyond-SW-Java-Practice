@@ -8,6 +8,6 @@ public class Solution {
         while(t-- > 0) {
            n = Math.max(n, sc.nextInt());
         }
-        System.out.println(1);
+        System.out.println(n);
     }
 }
