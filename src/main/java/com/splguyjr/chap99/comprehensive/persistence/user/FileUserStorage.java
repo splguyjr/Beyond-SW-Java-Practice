@@ -1,12 +1,13 @@
 package com.splguyjr.chap99.comprehensive.persistence.user;
 
+import com.splguyjr.chap99.comprehensive.config.FileProperties;
 import com.splguyjr.chap99.comprehensive.domain.User;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class FileUserStorage implements UserStorage {
-    private static final String FILE_PATH = "src/main/java/com/splguyjr/chap99/comprehensive/db/userDB.dat";
+    private static final String FILE_PATH = FileProperties.getUserDBPath();
 
 
     @Override

@@ -16,6 +16,10 @@ public class FileProperties {
         }
     }
 
+    public static String getUserDBPath() {
+        return properties.getProperty("userdb.path");
+    }
+
     public static String getTestCasePath() {
         return properties.getProperty("testcase.path");
     }
