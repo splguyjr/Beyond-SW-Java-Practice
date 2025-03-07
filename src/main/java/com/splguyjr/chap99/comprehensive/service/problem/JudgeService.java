@@ -99,7 +99,7 @@ public class JudgeService {
                 Thread.sleep(1000); // 1초 대기
                 String line;
                 while ((line = reader.readLine()) != null) {
-                    output.append(line);
+                    output.append(line).append("\n");
                 }
             }
 
